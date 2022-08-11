@@ -76,7 +76,7 @@
 >
   <div class="text-center">
     <div class="content">
-      <h2 class="text_shadows">Happy Birthday Steph!</h2>
+      <h2 class="text_shadows">Happy Birthday Steph!</h2> 
     </div>
   </div>
 </div>
@@ -169,7 +169,14 @@ body {
   color: var(--color-primary);
 
   animation: shadows 2.00s ease-in infinite, move 3.2s ease-in infinite;
+
   letter-spacing: 0.4rem;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
  
 @keyframes shadows {
