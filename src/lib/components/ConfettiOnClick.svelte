@@ -49,12 +49,12 @@
       align-items: center;
       justify-content: center;
       position: relative;
-      height: 10rem;
+      height: 100%;
       width: 100%;
-          border: 1px solid lightgray;
-          border-radius: 0.5rem;
-      background: white;
-      user-select: none;
+
+      background: none;
+      min-height: 100vh;
+      overflow: hidden;
     }
   
     .mover {
