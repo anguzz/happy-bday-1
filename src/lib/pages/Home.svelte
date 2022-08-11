@@ -1,0 +1,181 @@
+<script lang="ts">
+  import Anchor from "$lib/components/Anchor.svelte";
+
+ 
+  let color = "text-grey-200";
+  let hover = "sm:hover:text-primary-500";
+ 
+</script>
+
+<Anchor id="home" />
+<div
+  class="flex flex-col items-center justify-center bg-center bg-no-repeat bg-cover page lg:bg-fixed bg-neutral-600 bg-blend-soft-light dark:bg-blend-soft-light dark:bg-neutral-700"
+  id="bg"
+>
+  <div class="text-center">
+    <!-- <h1 class="text-5xl m-6 {color} font-bold"> 🎉 Happy Birthday Steph! 🎁 </h1> !-->
+    <div class="content">
+      <h2 class="text_shadows">Happy Birthday Steph!</h2>
+    </div>
+  </div>
+
+</div>
+
+<style>
+  #bg {
+    /* The image used background-image: url("/assets/images/background1.jpg"); */
+    background: linear-gradient(-45deg, #9ba8ed,#aca8fc,#b892fc, #bf84fc);
+	background-size: 400% 400%;
+	animation: gradient 10s ease-in-out infinite alternate;
+	height: 100vh;
+  }
+  @keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+  .text-2{
+  font-size: 1.8rem;  
+  margin: 0rem;
+  margin-top: 0rem;
+  font-weight: 200;
+  line-height: 3rem;
+  color:rgb(215, 219, 223);
+ }    
+ 
+  .subtitle {
+    font-size: 1.8rem; 
+     margin: 0rem;
+    font-weight: 200;
+    color:rgb(215, 219, 223);
+    padding-left: 3vw;
+    
+  }
+
+
+  *,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #f6aca2;
+  --color-secondary: #f49b90;
+  --color-tertiary: #f28b7d;
+  --color-quaternary: #f07a6a;
+  --color-quinary: #ee6352;
+  /*
+  --color-primary: #5192ED;
+  --color-secondary: #69A1F0;
+  --color-tertiary: #7EAEF2;
+  --color-quaternary: #90BAF5;
+  --color-quinary: #A2C4F5;
+  */
+}
+
+body {
+  min-height: 100vh;
+  font-family: canada-type-gibson, sans-serif;
+  font-weight: 200;
+  font-size: 1.00rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #eff8e2;
+}
+
+.content {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.text_shadows {
+  text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary),
+    9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
+  font-family: bungee, sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: calc(2rem + 4vw);
+  text-align: center;
+  margin: 0;
+  color: var(--color-primary);
+
+  animation: shadows 2.00s ease-in infinite, move 3.2s ease-in infinite;
+  letter-spacing: 0.4rem;
+}
+
+@keyframes shadows {
+  0% {
+    text-shadow: none;
+  }
+  10% {
+    text-shadow: 3px 3px 0 var(--color-secondary);
+  }
+  20% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary);
+  }
+  30% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
+  }
+  40% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
+      12px 12px 0 var(--color-quinary);
+  }
+  50% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
+      12px 12px 0 var(--color-quinary);
+  }
+  60% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
+      12px 12px 0 var(--color-quinary);
+  }
+  70% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
+  }
+  80% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary);
+  }
+  90% {
+    text-shadow: 3px 3px 0 var(--color-secondary);
+  }
+  100% {
+    text-shadow: none;
+  }
+}
+
+@keyframes move {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  40% {
+    transform: translate(-12px, -12px);
+  }
+  50% {
+    transform: translate(-12px, -12px);
+  }
+  60% {
+    transform: translate(-12px, -12px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+</style>
