@@ -98,7 +98,7 @@
 		padding: 0;
 		margin: 0 auto;
 		width: 100%;
-		max-width: 60%;
+		max-width: 80%;
 		color: #f6aca2;
 		font-size: 1.5rem;
     font-weight:bold;
@@ -125,6 +125,7 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+
 	}
 	
 	h2 {
