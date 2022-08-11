@@ -1,11 +1,11 @@
 <script lang="ts">
   import Anchor from "$lib/components/Anchor.svelte";
-
- 
   let color = "text-grey-200";
   let hover = "sm:hover:text-primary-500";
+  import Confetti from "$lib/components/Confetti.svelte";
+  import ToggleConfetti from "$lib/components/ToggleConfetti.svelte"
   import { tick } from 'svelte'
-  
+    /**------------------------------ below script for falling confetti----------------------------- */
     export let toggleOnce = false
     export let relative = true
   
@@ -21,10 +21,8 @@
       await tick();
       active = true
     }
-    import Confetti from "$lib/components/Confetti.svelte";
-    import ToggleConfetti from "$lib/components/ToggleConfetti.svelte"
-
-  
+   
+ /**------------------------------ below script for tap confetti----------------------------- */
     const duration = 2000
   
     /**
@@ -53,20 +51,24 @@
     }
   </script>
   
-
+<!---------------------------------  confetti falling from home page------------------------------- -->
   <ToggleConfetti toggleOnce relative={true}>
     <div style="position: fixed; top: -50px; left: 0; height: 100vh; width: 100vw; display: flex; justify-content: center; overflow: hidden;">
       <Confetti x={[-5, 5]} y={[0, 0.1]} delay={[500, 2000]}  infinite duration=5000 amount=200 fallDistance="100vh" />
     </div>
   </ToggleConfetti>
 
- 
+ <!-- -------------------------------confetti on click ----------------------------------- -->
   <div class="box" on:click={moveConfetti}>
       {#each things as thing}
       <div class="mover" style="left: {thing.x}px; top: {thing.y}px">
         <Confetti y={[-0.5, 0.5]} fallDistance=20px amount=10 {duration} />
       </div>
     {/each}
+
+
+ <!-- -------------------------------homepage stuff ----------------------------------- -->
+
 <Anchor id="home" />
 <div
   class="flex flex-col items-center justify-center bg-center bg-no-repeat bg-cover page lg:bg-fixed bg-neutral-600 bg-blend-soft-light dark:bg-blend-soft-light dark:bg-neutral-700"
@@ -80,7 +82,10 @@
   </div>
 </div>
 </div>
+
+ <!-- -------------------------------------css ------------------------------------------------------- -->
 <style>
+  /*-----------------------confetti on click css -----------------------------*/
 box {
       display: flex;
       align-items: center;
@@ -90,7 +95,7 @@ box {
       width: 100%;
 
       background: none;
-      min-height: 100vh;
+      min-height: 100%;
       overflow: hidden;
     }
   
@@ -101,6 +106,7 @@ box {
     span {
       pointer-events: none;
     }
+/*---------------------------------body css -----------------------------------------*/
   #bg {
     /* The image used background-image: url("/assets/images/background1.jpg"); */
     background: linear-gradient(-45deg, #9ba8ed,#aca8fc,#b892fc, #bf84fc);
@@ -120,25 +126,6 @@ box {
   }
 }
 
-  .text-2{
-  font-size: 1.8rem;  
-  margin: 0rem;
-  margin-top: 0rem;
-  font-weight: 200;
-  line-height: 3rem;
-  color:rgb(215, 219, 223);
- }    
- 
-  .subtitle {
-    font-size: 1.8rem; 
-     margin: 0rem;
-    font-weight: 200;
-    color:rgb(215, 219, 223);
-    padding-left: 3vw;
-    
-  }
-
-
   *,
 *::before,
 *::after {
@@ -151,13 +138,6 @@ box {
   --color-tertiary: #f28b7d;
   --color-quaternary: #f07a6a;
   --color-quinary: #ee6352;
-  /*
-  --color-primary: #5192ED;
-  --color-secondary: #69A1F0;
-  --color-tertiary: #7EAEF2;
-  --color-quaternary: #90BAF5;
-  --color-quinary: #A2C4F5;
-  */
 }
 
 body {
@@ -177,7 +157,7 @@ body {
   align-content: center;
   justify-content: center;
 }
-
+/* ---------------------------- letter animation css-----------------------------  */
 .text_shadows {
   text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary),
     9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
@@ -192,7 +172,7 @@ body {
   animation: shadows 2.00s ease-in infinite, move 3.2s ease-in infinite;
   letter-spacing: 0.4rem;
 }
-
+ 
 @keyframes shadows {
   0% {
     text-shadow: none;
