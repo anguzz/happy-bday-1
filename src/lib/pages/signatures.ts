@@ -27,7 +27,7 @@
     {
         name: 'Charles',
         message: 'Happy birthday Steph! Get super trashed and become a walking problem this weekend!',
-        message2: 'Here is my favorite SuperMega adjacent content that you can listen to: https://youtu.be/g7vd_Oy8ixw ',
+        message2: 'Here is my favorite SuperMega adjacent content that you can listen to: youtu.be/g7vd_Oy8ixw ',
     },
    
 ]
