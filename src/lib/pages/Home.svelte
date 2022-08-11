@@ -92,7 +92,7 @@ box {
       position: relative;
       height: 100%;
       width: 100%;
-
+   
       background: none;
       min-height: 100%;
       overflow: hidden;
@@ -167,7 +167,7 @@ body {
   text-align: center;
   margin: 0;
   color: var(--color-primary);
-
+  
   animation: shadows 2.00s ease-in infinite, move 3.2s ease-in infinite;
 
   letter-spacing: 0.4rem;

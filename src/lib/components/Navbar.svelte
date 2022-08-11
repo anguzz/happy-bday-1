@@ -39,7 +39,7 @@
     nav: "bg-neutral-300 dark:bg-violet-900",
     button: {
       active: /* active takes care of color when you use that button and are at that page section   */
-        "bg-primary-200 hover:bg-primary-200 dark:bg-purple-600 dark:hover:bg-pink-300 shadow-md",
+        "bg-primary-200 hover:bg-primary-200 dark:bg-purple-600 dark:hover:bg-rose-400 shadow-md",
       inactive: 
         "bg-neutral-200 hover:bg-purple-200 dark:bg-violet-500 dark:hover:bg-rose-400 shadow-md", 
     },
