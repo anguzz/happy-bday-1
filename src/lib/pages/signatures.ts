@@ -16,7 +16,7 @@
     },
     {
         name: 'Angel',
-        message: 'Have a sick birthday!',
+        message: 'Have a dope birthday and many more!',
         signed: 'Angus'
     },
     {
