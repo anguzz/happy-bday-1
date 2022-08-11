@@ -59,7 +59,7 @@
           </div>
           <div slot='body' class='body'>
             { signature.message } <br><br>
-            <p>{ signature.signed }</p>
+            <p>{ signature.message2 }</p>
           </div>
         
         </CollapsibleCard>
