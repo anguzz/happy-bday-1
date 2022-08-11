@@ -21,13 +21,23 @@
     },
     {
         name: 'Angle📐',
-        message: 'Have a dope birthday and many more!',
+        message: "Here's to a dope birthday and many more! Enjoy! ",
         message2: '- Angel Santoyooooooooo'
     },
     {
         name: 'Charles',
         message: 'Happy birthday Steph! Get super trashed and become a walking problem this weekend!',
         message2: 'Here is my favorite SuperMega adjacent content that you can listen to: youtu.be/g7vd_Oy8ixw ',
+    },
+    {
+        name: 'Najat',
+        message: 'happy fuckin birthdayyyy. thank you for encouraging me to fix my incapacitated brain. if i hadn’t tried your medication i wouldn’t have known how loud and obnoxious my fuckin head is.',
+        message2: 'you’re a wonderful person (with wonderful tiddies, can i say that?) and that’s only one of the many things i admire about you. happy birthday Steph :D ',
+    },
+    {
+        name: 'Definitely Not Iggy',
+        message: "Happy Birthday Steph! I hope you have many more days o' birf and enjoy 'em all.",
+        message2: 'P.S. Fuck bitches, get money!',
     },
    
 ]
