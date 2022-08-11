@@ -43,7 +43,7 @@
       inactive: 
         "bg-neutral-200 hover:bg-purple-200 dark:bg-violet-500 dark:hover:bg-rose-400 shadow-md", 
     },
-    buttonText: "text-neutral-800 dark:text-indigo-200",
+    buttonText: "text-neutral-800 dark:text-red-300",
   };
 
   let activeHash = "";
