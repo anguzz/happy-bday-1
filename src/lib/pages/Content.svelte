@@ -98,12 +98,13 @@
 		padding: 0;
 		margin: 0 auto;
 		width: 100%;
-		max-width: 80%;
+		max-width: 60%;
 		color: #f6aca2;
 		font-size: 1.5rem;
     font-weight:bold;
     background-color:rgb(149, 106, 250);
     border-radius: 10px;
+    
 	}
 	
 	li {
@@ -112,7 +113,7 @@
 	}
 	
 	.header {
-		padding: 0.5em;
+		padding: 0.3em;
 		display: flex;
 	}
 	
@@ -131,6 +132,7 @@
 	h2 {
 		margin: 0;
 		width: 100%;
+    
 	}
 	
 	p {
@@ -138,7 +140,7 @@
 	}
 	
 	.body {
-		padding: 0.5em;
+    padding: 0 0 0 1em;
 	}
 </style>
 
