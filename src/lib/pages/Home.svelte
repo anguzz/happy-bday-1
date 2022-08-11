@@ -163,7 +163,7 @@ body {
   font-family: bungee, sans-serif;
   font-weight: 200;
   text-transform: uppercase;
-  font-size: calc(2rem + 4vw);
+  font-size: calc(1.5rem + 4vw);
   text-align: center;
   margin: 0;
   color: var(--color-primary);
