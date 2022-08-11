@@ -115,13 +115,11 @@
 	.header {
 		padding: 0.3em;
 		display: flex;
+    background-color: #9f6ee7;
+    border-radius: 10px;
 	}
 	
-	img {
-		display: block;
-		border-radius: 5px;
-	}
-	
+
 	.names {
 		padding: 0 0 0 1em;
 		display: flex;
