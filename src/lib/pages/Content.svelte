@@ -109,7 +109,7 @@
 	
 	li {
 		margin-bottom: 0em;
-		border-bottom: 1px solid rgb(200,200,200);
+		border-bottom: 1px solid rgb(212, 137, 247);
 	}
 	
 	.header {
