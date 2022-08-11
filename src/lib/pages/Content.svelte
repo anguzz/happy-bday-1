@@ -5,7 +5,7 @@
   export let backgroundClass = primaryBackground;
   import Confetti from "$lib/components/Confetti.svelte";
   import CollapsibleCard from 'svelte-collapsible-card'
-  import { items } from "./items";
+  import { signatures } from "./signatures";
   /**------------------------------ below script for tap confetti----------------------------- */
   const duration = 2000
   
@@ -49,17 +49,17 @@
  <!-----------------collapsible card below---------------------------->
   <ul>
 	
-    { #each items as item }
+    { #each signatures as signature }
       <li>
         <CollapsibleCard>
           <div slot='header' class='header'>
-            <div class='titles'>
-              <h2>{ item.title }</h2>
-              <p>{ item.subtitle }</p>
+            <div class='names'>
+              <h2>{ signature.name }</h2>
             </div>
           </div>
           <div slot='body' class='body'>
-            { item.text }
+            { signature.message } <br><br>
+            <p>{ signature.signed }</p>
           </div>
         
         </CollapsibleCard>
@@ -121,7 +121,7 @@
 		border-radius: 5px;
 	}
 	
-	.titles {
+	.names {
 		padding: 0 0 0 1em;
 		display: flex;
 		flex-direction: column;

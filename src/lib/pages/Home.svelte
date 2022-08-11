@@ -75,7 +75,6 @@
   id="bg"
 >
   <div class="text-center">
-    <!-- <h1 class="text-5xl m-6 {color} font-bold"> 🎉 Happy Birthday Steph! 🎁 </h1> !-->
     <div class="content">
       <h2 class="text_shadows">Happy Birthday Steph!</h2>
     </div>
