@@ -4,9 +4,39 @@
  
   let color = "text-grey-200";
   let hover = "sm:hover:text-primary-500";
+  import { tick } from 'svelte'
+  
+    export let toggleOnce = false
+    export let relative = true
+  
+    let active = false
+  
+    async function click() {
+      if (toggleOnce) {
+        active = !active
+        return
+      }
+  
+      active = false
+      await tick();
+      active = true
+    }
+    import Confetti from "$lib/components/Confetti.svelte";
+    import ToggleConfetti from "$lib/components/ToggleConfetti.svelte"
+    import ConfettiOnClick from "$lib/components/ConfettiOnClick.svelte"
+  </script>
+  
+  
+  <ToggleConfetti toggleOnce relative={true}>
+    
+  
+    <div style="position: fixed; top: -50px; left: 0; height: 100vh; width: 100vw; display: flex; justify-content: center; overflow: hidden;">
+      <Confetti x={[-5, 5]} y={[0, 0.1]} delay={[500, 2000]}  infinite duration=5000 amount=200 fallDistance="100vh" />
+    </div>
+  </ToggleConfetti>
+  
  
-</script>
-
+  
 <Anchor id="home" />
 <div
   class="flex flex-col items-center justify-center bg-center bg-no-repeat bg-cover page lg:bg-fixed bg-neutral-600 bg-blend-soft-light dark:bg-blend-soft-light dark:bg-neutral-700"
@@ -22,6 +52,7 @@
 </div>
 
 <style>
+
   #bg {
     /* The image used background-image: url("/assets/images/background1.jpg"); */
     background: linear-gradient(-45deg, #9ba8ed,#aca8fc,#b892fc, #bf84fc);
