@@ -91,9 +91,7 @@
       position: absolute;
     }
   
-    span {
-      pointer-events: none;
-    }
+    
 
     /*--------------------------------------------collpasible css --------------------------------------------*/
     ul {
@@ -143,6 +141,28 @@
 	
 	.body {
     padding: 0 0 0 1em;
+	}
+  .link {
+		background-color: var(--text);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: var(--left);
+		font-size: 1.5rem;
+		margin: 0;
+		padding: 0.5em;
+	}
+
+	.link-text {
+		color: #a1b0f6;
+		border: 2px solid var(--left);
+		border-radius: 0.25rem;
+		padding: 0.25rem;
+	}
+
+	.link-text:hover {
+		background-color: var(--left);
+		color: #97e0ce;
 	}
 </style>
 
