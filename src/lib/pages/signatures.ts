@@ -7,7 +7,7 @@
     },
     {
         name: 'Ozzy ',
-        message: 'Hap birth steph hope you have a great day today and may God give you many more years of life - Ozzy ',
+        message: 'Hap birth steph hope you have a great day today and may God give you many more years of life',
         message2: '',
         link: ''
     },
