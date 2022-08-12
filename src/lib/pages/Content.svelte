@@ -5,6 +5,7 @@
   export let backgroundClass = primaryBackground;
   import Confetti from "$lib/components/Confetti.svelte";
   import CollapsibleCard from 'svelte-collapsible-card'
+  export let link:string;
   import { signatures } from "./signatures";
   /**------------------------------ below script for tap confetti----------------------------- */
   const duration = 2000
@@ -60,6 +61,8 @@
           <div slot='body' class='body'>
             { signature.message } <br><br>
             <p>{ signature.message2 }</p>
+            <a href={signature.link} class="link-text" target="_blank" rel="noopener noreferrer">
+              { signature.link }
           </div>
         
         </CollapsibleCard>
