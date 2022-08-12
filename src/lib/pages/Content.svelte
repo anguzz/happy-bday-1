@@ -98,8 +98,7 @@
 		list-style: none;
 		padding: 0;
 		margin: 0 auto;
-		width: 100%;
-		max-width: 80%;
+		width:80%;
 		color: #f6aca2;
 		font-size: 1.5rem;
     font-weight:bold;
