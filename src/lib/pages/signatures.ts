@@ -43,5 +43,13 @@
         name: 'Chris',
         message: "Happy dommy mommy day!",
         message2: '',
-    }, 
+    },
+    {
+        name: 'Shaleen',
+        message: "Happy Birthday Steph! You are a really respectful, kind, funny, and loving friend and I could not be more thankful to call you my friend. I wish you a lot of happiness and success in your life and you are destined to do incredible things! Love you!",
+        message2: 'Regards, Shaleen Mathur',
+    },
+     
+
+    
 ]
