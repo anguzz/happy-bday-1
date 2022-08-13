@@ -85,7 +85,7 @@
     },
     {
         name: 'Gerry',
-        message: "Happy birthday steph! Ive known you for about 2 years and so far you have left a huge impact on my life. U really understand My sense of humor and its always fun having a conversation with you. They get p weird but thats the best part hahahaha. I wish you the bes and hope to make more memories as the years continue to come.  ",
+        message: "Happy birthday steph! Ive known you for about 2 years and so far you have left a huge impact on my life. U really understand My sense of humor and its always fun having a conversation with you. They get p weird but thats the best part hahahaha. I wish you the best and hope to make more memories as the years continue to come.  ",
         message2: '-Gerry (racist)',
         link: ''
     },
