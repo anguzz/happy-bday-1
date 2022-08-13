@@ -71,4 +71,10 @@
         message2: 'Thanks for always being a homie to talk to. ',
         link: ''
     },
+    {
+        name: 'Angela',
+        message: "Hi Stepth. Happy Birthday!!!! Hope you have lots of fun today and that the upcoming days are filled with happiness. It's your special day whoooo 🥳🎊!! ",
+        message2: '',
+        link: ''
+    },
 ]
