@@ -15,7 +15,7 @@
         name: 'Angle📐',
         message: "Here's to a dope birthday and many more! Enjoy! ",
         message2: "- Angel Santoyooooooooo     P.S. Here's some chill tunes! " ,
-        link: 'https://www.youtube.com/watch?v=lKvG_RUoPlE&list=PL5VrERWe6GilYRYGqezYnvq0iWm9p5P8A&index=14'
+        link: 'https://youtube.com/playlist?list=PL5VrERWe6GilYRYGqezYnvq0iWm9p5P8A'
     },
     {
         name: 'Charles',
