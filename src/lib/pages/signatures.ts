@@ -77,4 +77,16 @@
         message2: '',
         link: ''
     },
+    {
+        name: 'Dania',
+        message: "Happy Birthday Steph! I’m so happy to call you a friend! You’ve helped me through so much and I’m so thankful I got to know u as a person!",
+        message2: ' I hope you have a great birthday! You deserve it!',
+        link: ''
+    },
+    {
+        name: 'Gerry',
+        message: "Happy birthday steph! Ive known you for about 2 years and so far you have left a huge impact on my life. U really understand My sense of humor and its always fun having a conversation with you. They get p weird but thats the best part hahahaha. I wish you the bes and hope to make more memories as the years continue to come.  ",
+        message2: '-Gerry (racist)',
+        link: ''
+    },
 ]
