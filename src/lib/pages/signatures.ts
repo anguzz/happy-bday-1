@@ -2,7 +2,7 @@
     {
         name: 'Aaron',
         message: "HAPPY BIRTHDAY STEPH, you are my favorite drug dealer. ",
-        message2: 'Thanks for always being a homie to talk to. -Aaron',
+        message2: 'Thanks for always being a homie to talk to.',
         link: ''
     },
     {
@@ -51,6 +51,18 @@
         name: 'Jacob C.',
         message: 'Steph you better not just have a happy 👏 rockin 👏 super 👏 happy 👏 groovy 👏 happy 👏 birthDAY...........but a whole year!!!',
         message2: '',
+        link: ''
+    },
+    {
+        name: 'Jacob N.',
+        message: 'Happy Birthday Steph ❤️. Continue to slay, put incels in their place,  have an absolutely based bday. ',
+        message2: '',
+        link: ''
+    },
+    {
+        name: 'Karni',
+        message: 'Happy birthday Steph! It’s been a really exciting time with you and through everything we’ve remained so close and gotten even closer and I am more than grateful to have you in my life.',
+        message2: 'You’ve been so supportive, understanding, caring, and always shown me the other side. I respect you and I love you so much! Happy 22!',
         link: ''
     },
     {
