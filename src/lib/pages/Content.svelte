@@ -8,7 +8,7 @@
   export let link:string;
   import { signatures } from "./signatures";
   /**------------------------------ below script for tap confetti----------------------------- */
-  const duration = 2000
+  const duration = 1500
   
   /**
 * @type {any[]}
