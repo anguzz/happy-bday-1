@@ -2,7 +2,7 @@
     {
         name: 'Aaron',
         message: "HAPPY BIRTHDAY STEPH, you are my favorite drug dealer. ",
-        message2: 'Thanks for always being a homie to talk to. ',
+        message2: 'Thanks for always being a homie to talk to. -Aaron',
         link: ''
     },
     {
